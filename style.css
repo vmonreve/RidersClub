@@ -1,0 +1,548 @@
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/**--Awal index--**/
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #4d4d4d;
+}
+#container {
+  width: 99%;
+  margin: 0px auto;
+  border: 2px solid #919191;
+  background-color: #c4c4c4;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #c4c4c4;
+}
+#logo-perpustakaan-container {
+  float: left;
+  width: 6%;
+  height: 80%;
+  padding: 8px;
+}
+#logo-perpustakaan {
+  width: 140px;
+  height: 80px;
+  border: 2px solid #ffffff;
+}
+#nama-alamat-perpustakaan-container {
+  float: left;
+  width: 90%;
+  padding: 10px;
+}
+.nama-alamat-perpustakaan {
+  float: left;
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+}
+#header2 {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  background-color: #e61b33;
+  color: #ffffff;
+}
+
+.ul-nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.ul-nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.list-nav {
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+#nama-user {
+  float: left;
+  color: #eeeeee;
+  padding: 6px;
+}
+#sidebar {
+  float: left;
+  width: 10.8%;
+  margin-top: 40px;
+}
+#sidebar ul {
+  list-style: none;
+}
+#sidebar a:link,
+#sidebar a:visited {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 6px;
+}
+#sidebar a:hover {
+  background-color: #919191;
+}
+.label-navigasi {
+  /* background-color: #e61b33; */
+  padding: 4px;
+  /* color: white; */
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.label-navigasi-login {
+  /* background-color: #e61b33; */
+  padding: 4px;
+  /* color: white; */
+  cursor: pointer;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.nav-sidebar {
+  padding-left: 40px;
+}
+
+#content-container {
+  float: left;
+  width: 88.8%;
+  background-color: #ffffff;
+}
+#footer {
+  width: 99.4%;
+  height: 20px;
+  clear: both;
+  text-align: center;
+  padding: 4px;
+  background-color: rgba(62, 62, 63, 1);
+  color: #ffffff;
+  height: 25vh;
+  padding-top: 70px;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(62, 62, 63, 1);
+  gap: 20px;
+  cursor: pointer;
+  list-style: none;
+  padding-bottom: 40px;
+}
+
+.img-footer {
+  width: 40px;
+}
+
+/**--Akhir index.php--**/
+
+/**--Awal pages--**/
+#label-page {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  border: 2px solid #e61b33;
+  padding: 4px;
+  width: 97.9%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.riders-logo {
+  position: relative;
+  left: 25%;
+  width: 500px;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.kontak-ul {
+  margin-top: 10px;
+}
+
+.kontak-h2 {
+  margin-top: 20px;
+}
+
+.main-kontak {
+  background-image: url(images/main.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  /* background-color: rgb(132, 129, 129); */
+  background-size: cover;
+  padding: 10px 20px;
+  margin: 25px 0px 20px 0px;
+  border-radius: 10px;
+}
+
+.about-p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.h1-main {
+  color: #000;
+}
+
+#content {
+  float: left;
+  width: 96.8%;
+  min-height: 454px;
+  border: 2px solid #c4c4c4;
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+.rider {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.home-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 40px 0px 40px;
+  gap: 10px;
+}
+
+.img-motor {
+  width: 300px;
+  height: 314px;
+  margin: 4px;
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 30px;
+}
+
+.container-artikel {
+  background-color: #d9d9d9;
+  margin: 20px 10px 80px 10px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.title-artikel {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #510805;
+}
+
+.artikel-basket {
+  display: flex;
+  gap: 40px;
+}
+
+.artikel-main {
+  max-width: 400px;
+  text-align: center;
+}
+
+.img-basket {
+  margin-left: 10px;
+  border-radius: 10px;
+  filter: brightness(90%);
+  cursor: pointer;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.isi-artikel {
+  flex: 1;
+  display: row;
+}
+
+.p-basket {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+/* 
+.footer {
+  background-color: #000;
+  padding: 80px;
+  margin-left: 80px;
+} */
+
+.riders-footer {
+  width: 40px;
+}
+
+.artikel2 {
+  display: flex;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.new-article {
+  margin-top: 120px;
+}
+
+.title-new {
+  color: #510805;
+  margin-left: 10px;
+}
+
+.card-article {
+  display: flex;
+  gap: 45px;
+  margin: 30px 10px 0px 10px;
+}
+
+.card-items-article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #2e0c0a;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.img-new {
+  width: 385px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #fff;
+  padding: 0px 8px;
+}
+
+.description {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0px 8px;
+}
+
+.artikel1 {
+  display: flex;
+  border-radius: 10px;
+}
+
+.img-artikel {
+  border-radius: 10px;
+  filter: brightness(90%);
+  cursor: pointer;
+  width: 100px;
+}
+
+.title-produk {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  /* background-color: rgb(147, 142, 142); */
+  border-radius: 10px;
+  color: #000;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.klien-img {
+  width: 170px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.p-klien {
+  text-align: justify;
+}
+
+.event-img {
+  width: 320px;
+  height: 150px;
+  border-radius: 10px;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+/* #beranda-judul {
+} */
+
+.span-event {
+  color: red;
+}
+
+.p-home {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.title-visi {
+  font-size: 24px;
+  margin: 30px 0 30px 0;
+}
+
+.misi-riders {
+  margin-left: 20px;
+}
+
+#beranda-konten {
+  text-align: center;
+  padding-top: 140px;
+  color: red;
+}
+.tombol {
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #e61b33;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #01597e;
+}
+#tombol-tambah-container {
+  margin-bottom: 10px;
+}
+#tombol-tambah-container a:hover {
+  background-color: #c4c4c4;
+}
+#tabel-tampil {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+}
+#tabel-tampil tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+#tabel-tampil tr th {
+  background-color: #e61b33;
+  color: #ffffff;
+  padding: 4px;
+  text-align: left;
+}
+#tabel-tampil td {
+  padding: 4px;
+}
+#label-tampil-no {
+  width: 30px;
+}
+#label-opsi {
+  width: 158px;
+  font-weight: bold;
+}
+#label-opsi2 {
+  width: 82px;
+  font-weight: bold;
+}
+#label-opsi3 {
+  width: 166px;
+  font-weight: bold;
+}
+.tombol-opsi-container {
+  float: left;
+}
+.tombol-opsi-container a:hover {
+  background-color: #c4c4c4;
+}
+#tabel-input {
+  width: 100%;
+}
+
+.container-login {
+  height: 80vh;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 20px 0px 20px;
+}
+
+.label-formulir {
+  width: 12%;
+  height: 36px;
+  margin: 20px;
+}
+.isian-formulir {
+  width: 80%;
+  padding: 4px;
+  width: 99.8%;
+}
+
+.akun-login {
+  position: absolute;
+  top: 56%;
+  bottom: 20px;
+}
+
+.akun-register {
+  position: absolute;
+  top: 62%;
+  bottom: 20px;
+}
+
+.isian-formulir2 {
+  width: 78%;
+  padding: 4px;
+  width: 20%;
+}
+.label-formulir2 {
+  width: 100%;
+  height: 26px;
+  margin: 20px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+.isian-formulir-border {
+  border: 1px solid #c4c4c4;
+}
+.warna-formulir-disabled {
+  background-color: #f1f1f1;
+}
+/**--Akhir pages--**/

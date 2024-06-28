@@ -1,0 +1,9 @@
+<div id="label-page"><h3>About Riders Club</h3></div>
+<div id="content">
+	<div id="beranda-judul">
+    <main class="main-kontak">
+      <h1 class="h1-main">Sejarah Riders Club</h1>
+    </main>
+    <p class="about-p">Riders Club berdiri pada tahun 2010 dengan misi utama untuk menjadi pusat penyediaan pengalaman berkendara yang istimewa bagi para penggemar motor di Indonesia. Berawal dari semangat dan visi dari sekelompok penggemar motor yang berpengalaman, Riders Club mulai sebagai toko kecil yang menawarkan sepeda motor dari merek-merek terkemuka serta suku cadang dan perlengkapan berkendara. Dalam beberapa tahun pertama, Riders Club berhasil membangun fondasi yang kokoh dalam komunitas pengguna motor dengan fokus pada pelayanan pelanggan yang ramah dan produk berkualitas. Dukungan dari pelanggan setia membantu Riders Club untuk tumbuh dan berkembang pesat. Melihat potensi yang terus berkembang dalam pasar motor Indonesia, Riders Club mulai mengembangkan jaringan cabangnya ke beberapa kota besar pada tahun 2015. Langkah ini tidak hanya meningkatkan aksesibilitas produk Riders Club tetapi juga memperkuat kehadiran perusahaan di tingkat nasional. Dengan semangat inovasi, Riders Club terus berkomitmen untuk menyediakan produk dan layanan terbaik kepada pelanggan. Platform online yang diluncurkan mempermudah pelanggan untuk melakukan pembelian dan reservasi layanan, menjadikan Riders Club relevan dalam era digital ini. Hari ini, Riders Club tetap menjadi pilihan utama bagi para penggemar motor dengan reputasi yang solid sebagai tempat yang dapat diandalkan untuk memenuhi kebutuhan sepeda motor dan pengalaman berkendara yang memuaskan. Dengan fokus yang kuat pada komunitas dan pelayanan pelanggan, Riders Club terus bergerak maju sebagai mitra terpercaya dalam petualangan berkendara di Indonesia.</p>
+	</div>
+</div>
